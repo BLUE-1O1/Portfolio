@@ -1,0 +1,382 @@
+:root {
+    --main-color: black;
+    --pinkyfunky: #ff5d96;
+}
+
+/* Header */
+
+.core {
+    margin-top: 81px;
+}
+
+/* @media (min-width: 576px) {
+    header ul li:first-child {
+        border-right: solid 0.3em white;
+    }
+} */
+
+/* Footer */
+
+footer {
+    background-color: var(--main-color);
+}
+
+.bg-black {
+    background-color: var(--main-color);
+}
+
+#copyright {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+}
+
+/* Index */
+
+@media (max-width: 575px) {
+    #logo-second {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    #logo-first {
+        display: none;
+    }
+}
+
+
+/* Blog article */
+
+.imagearticleblog {
+    width: 5000px;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    .coretext {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .coreimage {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+.coreimage {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 1200px) {
+    .coremainimage {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.coremainimage {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 1200px) {
+    .corevideo {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+
+.corevideo {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*#corearticleblog iframe {
+    width: 1000px;
+    height: auto;
+}*/
+
+/* Réalisations monument-Doubs */
+
+@media (min-width: 400px) {
+    #monument-iframe {
+    height: 250px;
+    }
+}
+
+@media (min-width: 600px) {
+    #monument-iframe {
+    height: 330px;
+    }
+}
+
+@media (min-width: 800px) {
+    #monument-iframe {
+    height: 340px;
+    }
+}
+
+@media (min-width: 950px) {
+    #monument-iframe {
+    height: 350px;
+    }
+}
+
+@media (min-width: 1050px) {
+    #monument-iframe {
+    height: 360px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #monument-iframe {
+    height: 400px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #monument-iframe {
+    height: 450px;
+    }
+}
+
+@media (min-width: 1600px) {
+    #monument-iframe {
+    height: 500px;
+    }
+}
+
+@media (min-width: 1800px) {
+    #monument-iframe {
+    height: 600px;
+    }
+}
+
+@media (min-width: 2000px) {
+    #monument-iframe {
+    height: 640px;
+    }
+}
+
+@media (min-width: 21500px) {
+    #monument-iframe {
+    height: 680px;
+    }
+}
+
+@media (min-width: 2400px) {
+    #monument-iframe {
+    height: 750px;
+    }
+}
+
+/* Réalisation Posters */
+
+@media (min-width: 992px) {
+    .poster img {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    }
+    .poster:hover img {
+    /* L'image est grossie de 25% */
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+    }
+}
+
+.poster {
+    border: 2px solid black !important;
+}
+
+/* Réalisations color */
+
+#benoitfreslon {
+    background-color: #e4a47820;
+}
+    
+    #benoitfreslon:hover {
+        background-color: #e4a47830;
+    }
+
+#monumentsdoubs {
+    background-color: #1893d320;
+}
+    
+    #monumentsdoubs:hover {
+        background-color: #1893d330;
+    }
+
+#postersartscrafts {
+    background-color: #00000015;
+}
+    
+    #postersartscrafts:hover {
+        background-color: #00000025;
+    }
+
+
+/* Blog color */
+
+#hitmarkers {
+    background-color: #fff02920;
+}
+    
+    #hitmarkers:hover {
+        background-color: #fff02930;
+    }
+
+#rage-dlc {
+    background-color: #fe9e5420;
+}
+    
+    #rage-dlc:hover {
+        background-color: #fe9e5430;
+    }
+
+#rage {
+    background-color: #aa7c6d20;
+}
+    
+    #rage:hover {
+        background-color: #aa7c6d30;
+    }
+
+#carto {
+    background-color: #54617920;
+}
+    
+    #carto:hover {
+        background-color: #54617930;
+    }
+
+
+#callofthesea {
+    background-color: #bef7fe30;
+}
+    
+    #callofthesea:hover {
+        background-color: #bef7fe40;
+    }
+
+#thelongdark {
+    background-color: #fc700120;
+}
+    
+    #thelongdark:hover {
+        background-color: #fc700130;
+    }
+
+#superliminal {
+    background-color: #e3a59a20;
+}
+
+    #superliminal:hover {
+        background-color: #e3a59a30;
+    }
+
+#pcbuildingsimulator {
+    background-color: #5e697d20;
+}
+
+    #pcbuildingsimulator:hover {
+        background-color: #5e697d30;
+    }
+
+#maciejtargoni {
+    background-color: #f2839620;
+}
+
+    #maciejtargoni:hover {
+        background-color: #f2839630;
+    }
+
+#acvalhalla {
+    background-color: #23ffff20;
+}
+
+    #acvalhalla:hover {
+        background-color: #23ffff30;
+    }
+
+#elderborn {
+    background-color: #85521320;
+}
+    
+    #elderborn:hover {
+        background-color: #85521330;
+    }
+
+#ancientgodspart1 {
+    background-color: #ffff2d20;
+}
+    
+    #ancientgodspart1:hover {
+        background-color: #ffff2d30;
+    }
+
+#deathcoming {
+    background-color: #bbbad720;
+}
+    
+    #deathcoming:hover {
+        background-color: #bbbad730;
+    }
+
+#serioussam4 {
+    background-color: #eecd8620;
+}
+    
+    #serioussam4:hover {
+        background-color: #eecd8630;
+    }
+
+#wilmotswarehouse {
+    background-color: #00000015;
+}
+    
+    #wilmotswarehouse:hover {
+        background-color: #00000025;
+    }
+
+#eternalcastle {
+    background-color: #ff0afd20;
+}
+    
+    #eternalcastle:hover {
+        background-color: #ff0afd30;
+    }
+
+#sanglarmespixels {
+    background-color: #d81b3920;
+}
+    
+    #sanglarmespixels:hover {
+        background-color: #d81b3930;
+    }
+
+#hightscore {
+    background-color: #07bbca20;
+}
+    
+    #hightscore:hover {
+        background-color: #07bbca30;
+    }
+
+#devolverland {
+    background-color: #f587d420;
+}
+    
+    #devolverland:hover {
+        background-color: #f587d430;
+    }
