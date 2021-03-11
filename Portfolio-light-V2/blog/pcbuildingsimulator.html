@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="robots" content="noindex" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>AntoninLaine.fr - PC Building Simulator</title>
+    <link rel="icon" type="image/png" href="../img/monogramme_white.png" />
+
+    <!--Boostrap-->
+
+    <!-- Styles Boostrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!-- Bibliothèque Jquery avant bibliothèque Javascript Boostrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <!-- Bibliothèque Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <!-- Bibliothèque Jquery -->
+    <script type='text/javascript' src='https://code.jquery.com/jquery-3.1.1.min.js'></script>
+
+    <!-- Bibliothèque Boostrap Javascript après Jquery -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!--CSS-->
+    <link type="text/css" rel="stylesheet" href="../css/lib/bootstrapcomplement.css">
+    <link type="text/css" rel="stylesheet" href="../css/lib/normalize.css">
+    <link type="text/css" rel="stylesheet" href="../css/mescss/layout.css">
+    <link type="text/css" rel="stylesheet" href="../css/mescss/typography.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-black">
+
+            <a id="logo-first" class="navbar-brand" href="../index.html"> 
+                <img 
+                src="../img/monogramme_white.png"
+                alt="monogramme"
+                width="50" height="50"
+                class="img-fluid"> 
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+
+                <li id="logo-second" class="nav-item px-5 text-center order-sm-2">
+                    <a class="navbar-brand mx-auto" href="../index.html"> 
+                        <img 
+                        src="../img/monogramme_white.png"
+                        alt="monogramme"
+                        width="55" height="55"
+                        class="img-fluid">
+                    </a>
+                </li>
+
+                <li class="nav-item my-auto text-center order-sm-1">
+                  <a class="nav-link text-uppercase dead" href="../realisations.html">work</a>
+                </li>
+
+                <li class="nav-item my-auto text-center order-sm-3">
+                  <a class="nav-link text-uppercase alive" href="../blog.html">blog</a>
+                </li>
+
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Core -->
+    <article id="corearticleblog" class="core py-5">
+
+        <p class="text-center mention"><i>Article à l'origine publié sur et pour <a
+                    href="https://linfotoutcourt.com/test-pc-building-simulator/"
+                    target="_blank">L'Info-Tout-Court</a></i></p>
+
+        <h1 class="text-center">PC building simulator : PC Fantasy</h1>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coremainimage">
+            <figure class="figure">
+                <img src="../img/blog/pcBuildingSimulator/log.jpg" alt="PC Building Simulator"
+                    class="img-fluid imagearticleblog">
+                <figcaption class="figure-caption text-center">© Claudiu Kiss © The irregular Corporation</figcaption>
+            </figure>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coretext">
+            <p id="chapeau">Vous aimez les gros engins ? Les bolides de compétition, ceux de
+                couleur vive et criarde ? Ces monstres sur châssis dont le prix vous paraît stupidement élevé ? Et bien
+                cette critique est faite pour vous, fans de tuning et de moyens de compenser. Aujourd’hui on s’attaque à
+                PC Building Simulator, à ne pas confondre avec <i>Car Mechanic Simulator</i>, titre étonnement proche
+                mais dédié lui, aux 4 roues.</p>
+            <p><b>PC Building Simulator</b> donc, développé par <i>Claudiu Kiss</i> et <i><a
+                        href="https://theirregularcorporation.com/" target="_blank">The irregular Corporation</a></i>,
+                et édité par cette même entité, vous propose, comme l’indique sobrement son intitulé, de monter des PC,
+                et même plus, de simuler le tout au travers de l’interface du vôtre ! Incroyable.</p>
+            <h2 class="h2 pt-5 pb-3">PC Building Fantasy</h2>
+            <p>Dans l’idée comme dans le nom, <b>PC Building Simulator</b> est donc un
+                simulateur – jusqu’ici tout se tient. Il y sera question de monter des bécanes, mais plus généralement
+                de remplacer
+                des pièces ou upgrader/améliorer du matériel existant. <b>Les gestes</b> : manipuler les pièces, visser
+                des trucs, plugger des machins dans des bidules et autres maniements du genre ; <b>ont été totalement
+                    automatisés.</b> Ce qui fait sens, ça parait assez complexe à mettre en ludisme, d’autant que le
+                résultat
+                aurait de grandes chances d’être plus pénible qu’autre chose. En fait, c’est assez simple, il n’y a pas
+                d’échec possible. <b>Impossible de mal faire, ou de simplement oublier un câble ; au mieux vous pourrez
+                    griller un processeur en oubliant la pâte thermique, pas plus.</b></p>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coreimage">
+            <figure class="figure">
+                <img src="../img/blog/pcBuildingSimulator/20201205231318_1.jpg" alt="PC Building Simulator tour fixe"
+                    class="img-fluid imagearticleblog">
+                <figcaption class="figure-caption text-center"></figcaption>
+            </figure>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coretext">
+            <p>Cela dit, et même en ayant drastiquement dépouillé le gameplay de “montage”,
+                celui-ci reste pénible. Ce n’est certainement pas pour rien que <b>le jeu propose des outils pour
+                    automatiser le câblage ou visser en un clic plutôt qu’en maintenant.</b> Là où le bât blesse, c’est
+                quand
+                ces mêmes “épargneurs d’ennui” sont derrière de conséquents paywalls in-game ou absents du mode
+                “créatif”. Un mode bac à sable, sans limite de frais, avec tout de disponible. Un mode assez anecdotique
+                au final, puisqu’il s’agit de machines virtuelles… in-game. Vous n’allez pas faire tourner <i>Cyberpunk
+                    2077</i> là-dessus, à notre plus grand dam. Passer ce moment grotesque où vous fourrez tous les
+                composants
+                les plus chers dans le boîtier le plus outrageusement vaste, le potentiel d’amusement d’un tel mode est
+                nul.</p>
+
+            <h2 class="h2 pt-5 pb-3">Cable Fantasy</h2>
+            <p>Nous n’en avons pas terminé avec les aspects pénibles. <b>Si l’absence
+                    de “cable management” est regrettable – mais explicable -, ce qui vient remplacer cela dans le jeu
+                    est
+                    un sacré raté.</b> Il existe différents types de câbles, chacun disponible en plusieurs coloris… et
+                c’est
+                alors que les choses se gâtent. </p>
+            <p><b>Il ne sera pas rare de voir des commandes demandant des changements
+                    de couleur de câbles</b>, question de booster votre notation pour obtenir de meilleurs contrats. Si
+                l’idée
+                est bonne, obligeant le joueur à bien lire les commandes pour cerner des objectifs bonus permettant
+                d’atteindre le mieux que mieux, il en reste que son implémentation devient vite un sérieux frein au fun.
+            </p>
+            <p>Presque une commande sur trois a comme objectif bonus des
+                remplacements de câbles colorés. Il faut alors débrancher les câbles – en maintenant votre clic sur la
+                zone en surbrillance – puis pour chaque partie, rebrancher avec le bon type câble du bon coloris.
+                Sachant que <b>chaque changement de type oblige à passer par un menu de sélection…</b></p>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coreimage">
+            <figure class="figure">
+                <img src="../img/blog/pcBuildingSimulator/20210102131437_1.jpg" alt="PC Building Simulator câbles"
+                    class="img-fluid imagearticleblog">
+                <figcaption class="figure-caption text-center"></figcaption>
+            </figure>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coretext">
+            <p>Ce n’est pas challengeant, ne demande de réflexion particulière, ni ne reflète la
+                réalité, c’est là question d’être casse-pieds ; question d’en partie délayer la progression en obligeant
+                à régulièrement acheter de nouveaux câbles. <b>Farmer pour dilapider de l’argent dans des câbles roses,
+                    jaunes, bleus, violets… c’est surtout avoir l’impression de faire du surplace</b> dans un jeu à la
+                progression déjà apathique, où les contrats intéressants peinent à se montrer.</p>
+            <p>Pourquoi s’être économisé de tant de complexité sur le montage en général, pour
+                au final venir alourdir le tout avec <b>une surcouche de menuing aux portes de l’insupportable</b> ?
+                L’interface déjà pénible à utiliser à la base, n’arrange pas le constat avec ces manipulations
+                supplémentaires qui n’apportent concrètement rien au jeu.</p>
+
+            <h2 class="h2 pt-5 pb-3">On se croirait sur Windows…</h2>
+            <p><b>L’interface est dans l’ensemble un vrai gros souci de ce PC Building
+                    Simulator</b>,
+                surtout qu’avec votre nombre de pièces et de références croissant, la navigation ne va faire qu’empirer.
+                Il n’existe littéralement AUCUN raccourci clavier pour utiliser la pâte thermique, changer de style de
+                câble ou autres petite choses de ce genre. Pour un jeu qui s’appuie autant sur celle-ci, il manque un
+                vrai gros travail d’ergonomie. Monter un PC est déjà inintéressant et très vite gonflant, alors si en
+                plus l’interface ne va pas dans votre sens…</p>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coreimage">
+            <figure class="figure">
+                <img src="../img/blog/pcBuildingSimulator/20201205231252_1.jpg" alt="PC Building Simulator puppies"
+                    class="img-fluid imagearticleblog">
+                <figcaption class="figure-caption text-center">Vous pouvez utiliser vos fonds d'écrans... mais pourquoi
+                    faire, celui-ci est fourni</figcaption>
+            </figure>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coretext">
+            <p>Il y a bien quelques choses à sauver, comme ces filtres bienvenus dans le faux
+                store en ligne, ou <b>toute cette fausse interface d’OS et de BIOS. Ce genre de choses sert bien
+                    l’ambiance
+                    du jeu</b>, ce côté RP, assez important dans ce type de production. Malgré cela, le constat sur la
+                partie
+                montage à proprement parler est désastreux, d’autant que le pan plus gestion du jeu ne l’accompagne pas
+                comme il le faudrait.</p>
+
+            <h2 class="h2 pt-5 pb-3">PC Builder Tycoon</h2>
+            <p>La structure du jeu est assez simple. <b>Chaque jour, vous recevez des emails,
+                    qui
+                    sont des commandes que vous pouvez accepter ou refuser.</b> Une journée se termine lorsque vous
+                décidez
+                qu’elle se termine. Sur cet aspect, <b>vous n’avez donc aucune pression temporelle, et c’est peut-être
+                    là
+                    le premier gros souci.</b></p>
+            <p>Cette absence de temporalité s’insinue partout. Déjà, <b>le choix d’accepter ou
+                    non
+                    un contrat est caduc puisque vous aurez tout le temps de le remplir.</b> Pareillement, il n’y a pas
+                vraiment
+                moyen de se spécialiser dans certains types de travaux, donc pas de décision à prendre en fonction. S’il
+                existe bien des contrats devant être remplis dans un temps imparti, ils ne diffèrent en rien dans leur
+                exécution. C’est présent mais inutile, sans que cela ait été considéré mécaniquement, comme trop de
+                choses dans le jeu.</p>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coreimage">
+            <figure class="figure">
+                <img src="../img/blog/pcBuildingSimulator/20201205231348_1.jpg" alt="PC Building Simulator commandes"
+                    class="img-fluid imagearticleblog">
+                <figcaption class="figure-caption text-center">Impossible d'avoir la composition du PC du contrat et le
+                    store ouvert à côté</figcaption>
+            </figure>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coretext">
+            <p><b>Plus généralement, il n’y a pas de gestion de votre agenda, vous pouvez
+                    prendre
+                    une commande et la renvoyer au client 10 ans plus tard</b>, pas de soucis. En ne vous imposant rien,
+                le jeu
+                perd aussi beaucoup de son sel.</p>
+            <p>Ce problème sur la gestion du temps se retrouve également au cœur de la
+                progression du jeu. <b>Nous démarrons la partie en 2018 avec comme unique génération de cartes
+                    graphiques
+                    des GTX 900, une génération sortie en 2014.</b> Les nouveaux équipements ne se débloquent pas
+                naturellement
+                avec le temps qui passe, mais en passant de niveau avec l’XP des contrats. <b>Le temps du jeu n’est pas
+                    raccord avec la réalité du marché du hardware.</b> Tout cela vient sérieusement entamer le côté RP
+                (rôle
+                play) de la chose, très important dans une simulation ou même un tycoon. Puisque c’est précisément cette
+                volonté de RP, d’appropriation, qui fait tenir ce genre de jeux, sans contexte narratif et ici, sans
+                grande profondeur mécanique.</p>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coreimage">
+            <figure class="figure">
+                <img src="../img/blog/pcBuildingSimulator/20201205224347_1.jpg" alt="PC Building Simulator Spec"
+                    class="img-fluid imagearticleblog">
+                <figcaption class="figure-caption text-center">Y'a de la marge là</figcaption>
+            </figure>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coretext">
+            <p>Quitte à parler de trucs bidons – parce qu’on en est là -, même les
+                configurations recommandées ne sont pas les vraies. Quel intérêt de prendre de vrais jeux alors ? Et
+                pourquoi quand un contrat me demande de réparer un PC de bureautique le-dit PC est équipé d’un GTX 980 ?
+                <b>Pourquoi toutes les configurations sont aussi incohérentes ?</b> C’est rempli de ce genre
+                d’aberrations qui
+                cassent le délire.</p>
+            <p>Il y a une réelle absence de game design, de balisage, de choix. <b>PC Building
+                    Simulator ne va nulle part.</b> Le jeu n’est qu’une somme d’éléments creux qui s’additionnent sans
+                venir
+                créer une boucle de mécaniques efficaces et complémentaires. Certes, <b>on peut construire des PC, mais
+                    ce
+                    simple état de fait ne fait pas tenir un jeu</b>, surtout quand le contexte empile les incohérences.
+            </p>
+
+            <h2 class="h2 pt-5 pb-3">Ventiler</h2>
+            <p>Pour poursuivre sur cette idée que le jeu ne va nulle part et ne synthétise
+                jamais une expérience de jeu intéressante, il y a la médiocrité du challenge. <b>Plus qu’un jeu facile,
+                    PC
+                    Building Simulator est un jeu vide.</b></p>
+            <p><b>Les budgets des contrats sont toujours outrageusement larges, n’obligeant pas
+                    à
+                    sélectionner soigneusement le matériel</b> ; le catalogue est très statique, sans stock ou
+                fluctuation de
+                prix ; il n’existe qu’un seul indice de performance… Le jeu submerge le joueur de contrats de
+                remplacement de ram, de changement de disque dur, d’améliorations de pc bêtes et méchantes qui ne
+                nécessitent que d’acheter tout ce qu’il y a de plus cher dans la boutique. </p>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coreimage">
+            <figure class="figure">
+                <img src="../img/blog/pcBuildingSimulator/20201205164926_1.jpg" alt="PC Building Simulator Ryzen CPU"
+                    class="img-fluid imagearticleblog">
+                <figcaption class="figure-caption text-center">Mes chouchous</figcaption>
+            </figure>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coretext">
+            <p>Ni challenge, ni cohérence de fond. <b>Jamais vous n’aurez à vous pencher plus de
+                    deux secondes sur la comptabilité, l’optimisation d’une configuration, la nomenclature des
+                    processeurs…</b>
+                D’ailleurs, impossible de construire un PC sans carte graphique, c’est vous dire le niveau de la
+                simulation. Il y a tellement de choses qui ne vont pas, qu’il nous est proprement impossible de toutes
+                les aborder.</p>
+
+            <h2 class="h2 pt-5 pb-3">On arrête les frais</h2>
+            <p>Même <i><a href="https://www.youtube.com/watch?v=mpGO0uKas64" target="_blank">Game Dev Tycoon</a></i>
+                qui lui n’avait pas eu le droit de citer de vraies marques,
+                avait soigneusement arrangé sa progression pour que marche sa Power Fantasy : être développeur de jeu
+                vidéo, par extension un studio de jeux vidéo. <b>Malgré sa pauvreté mécanique et toutes ses
+                    limitations</b>, il
+                réussissait à synthétiser cette sorte « d’immersion » qui nous fait nous attacher à ce qu’on fait. On se
+                fait notre film parce que les développeurs arrangent un contexte qui nous y pousse, parce qu’<b>ils
+                    émulent
+                    – virtuellement – le fantasme.</b> Et c’est amusant en fait. <i>Game Dev Tycoon</i> est un jeu amusant,
+                mécaniquement pauvre, très réducteur quant à la réalité du développement, mais amusant. Franchement,
+                c’est cool comme jeu… bref.</b></p>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coreimage">
+            <figure class="figure">
+                <img src="../img/blog/pcBuildingSimulator/20210102131558_1.jpg" alt="PC Building Simulator Ryzen CPU"
+                    class="img-fluid imagearticleblog">
+                <figcaption class="figure-caption text-center"></figcaption>
+            </figure>
+        </div>
+
+        <div class="container col-10 col-md-8 col-lg-6 justify-content-center coretext">
+            <p><b>Ici, tout est d’une molesse folle.</b> Nous ne prenons aucune décision, ne
+                choisissons aucune route. Vous vous imaginiez poursuivre l’évolution du hardware de 2010 à 2020 le tout
+                dans la peau d’un réparateur informatique ? Devenir le meilleur PC builder que cette terre n’ait jamais
+                porté. Et bien ici, y’a rien de ça, de la mauvaise simu, complètement creuse, agencée sur un mauvais
+                tycoon, complètement creux, le tout couplé à une progression incapable de se renouveler à une allure
+                raisonnable.</p>
+            <p><b>Rien de ce qui fait le hardware PC, son existence tangible, le montage d’une
+                tour, bref son folklore, n’est dans PC Building Simulator correctement retranscrit.</b> C’est un jeu
+                ronflant, qui porte très mal son nom et ne tient pas les promesses qu’il esquisse. Plus concentré à
+                assurer la promotion des acteurs du milieu qu’à délivrer une bonne expérience de jeu vidéo. <i>Western
+                Digital</i> ? Cette marque n’existe pas d’après <b>PC Building Simulator</b>. C’est sûr que flinguer l’équilibrage
+                et la représentativité pour des questions de partenariat, c’est du grand art… <b>C’est un très mauvais jeu.</b>
+            </p>
+            <p id="chapeau">PC Building Simulator est disponible depuis le 29 janvier 2019 sur PC et depuis le 13 août 2019 sur Playstation 4, Xbox One et Nintendo Switch.</p>
+        </div>
+
+        <div
+            class="container col-10 col-md-8 col-lg-6 justify-content-center corevideo embed-responcive embed-responcive-16by9">
+                <iframe class="embed-responsive-item w-100" src="https://www.youtube.com/embed/rq9IAJ7YulQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </article>
+
+    <!-- Footer -->
+    <footer class="text-white">
+        <div class="container d-sm-flex py-4">
+
+            <ul class="container col-12 col-sm-3 list-group">
+                <li class="text-uppercase list-group-item border-0 bg-black text-center text-left-sm">
+                    <a class="text-white" href="../index.html">accueil</a>
+                </li>
+                <li class="text-uppercase list-group-item border-0 bg-black text-center text-left-sm">
+                    <a class="text-white" href="../realisations.html">work</a>
+                </li>
+                <li class="text-uppercase list-group-item border-0 bg-black text-center text-left-sm">
+                    <a class="text-white" href="../blog.html">blog</a>
+                </li>
+            </ul>
+
+            <ul class="container col-12 col-sm-3 list-group">
+                <li class="text-uppercase list-group-item border-0 bg-black text-center text-left-sm">
+                    <a class="text-white" href="mailto:antoninlaine01@gmail.com">contact</a>
+                </li>
+                <li class="text-uppercase list-group-item border-0 bg-black text-center text-left-sm">
+                    <a class="text-white" href="../ressources/CV_Antonin-LAINE.pdf" target="_blank">CV</a>
+                </li>
+            </ul>
+
+            <ul id="RS" class="container col-12 col-sm-3 list-group">
+                <li class="text-uppercase list-group-item border-0 bg-black text-center text-left-sm">réseaux</li>
+                <li class="text-uppercase list-group-item border-0 bg-black text-center text-left-sm">
+                    <a href="https://www.linkedin.com/in/antonin-lain%C3%A9-734160174/" target="_blank">
+                        <img src="../img/RSfooter/LinkedIn.png" alt="linkedin logo" width="50" height="50"
+                            class="img-fluid">
+                    </a>
+                    <a href="https://www.flickr.com/photos/190782939@N02/albums" target="_blank">
+                        <img src="../img/RSfooter/FLICKR.png" alt="linkedin logo" width="50" height="50"
+                            class="img-fluid">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCAGH1XHgYeqN9qhVKIlhSJg" target="_blank">
+                        <img src="../img/RSfooter/youtube.png" alt="linkedin logo" width="50" height="50"
+                            class="img-fluid">
+                    </a>
+                </li>
+            </ul>
+
+            <div class="container col-12 col-sm-3 row ml-sm-5 justify-content-center">
+                <p id="copyright" class="text-uppercase list-group-item border-0 bg-black">© Antonin LAINÉ 2021</p>
+                <a href="../index.html">
+                    <img src="../img/monogramme_white.png" alt="monogramme" width="120" height="120"
+                        class="img-fluid pt-5">
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
