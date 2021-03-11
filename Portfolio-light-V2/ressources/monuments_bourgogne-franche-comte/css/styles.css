@@ -1,0 +1,114 @@
+#mouv {
+    animation : 4s infinite ease-out riv;
+}
+
+@keyframes riv {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(30px);
+    }
+}
+
+#anim_ciel #nuage1 {
+    animation : 31s infinite linear nuage1;
+}
+
+@keyframes nuage1 {
+    from{
+        transform: translateX(-800px);
+    }
+    to{
+        transform: translateX(1100px);
+    }
+}
+
+#anim_ciel #nuage2 {
+    animation : 26s infinite linear nuage2;
+}
+
+@keyframes nuage2 {
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(-1200px);
+    }
+}
+
+#ombre {
+    animation : 10s infinite alternate linear ombre;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes ombre {
+    from{
+        transform: rotate(0deg) translateY(0px) scaleX(1);
+    }
+    to{
+        transform: rotate(-3.5deg) translateY(-24px) scaleX(0.95);;
+    }
+}
+
+#girouette_anim {
+    animation : 5s infinite cubic-bezier(.12,.83,1,.17) girouette;
+    transform-origin: 1183.444px 131.213px;
+}
+
+@keyframes girouette {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+/* interactions */
+
+#groschateau, #groslion, #grostour, #grosfond {
+    animation: 4s ease-out;
+    visibility: hidden;
+}
+
+
+.chateauactif #groschateau,.lionactif #groslion,.touractif #grostour {
+    animation : 4s ease-out gros;
+    visibility: visible;
+}
+
+@keyframes gros {
+    from{
+        transform: translateY(700px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+#grosfond{
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.lionactif #grosfond, .chateauactif #grosfond, .touractif #grosfond{
+    visibility: visible;
+    opacity: 0.75;
+    transition: opacity 3s;
+}
+
+/*#grosfond:hover{
+    animation: linear infinite alternate bougie;
+}
+
+@keyframes bougie {
+    from{
+        fill: EFE77C;
+    }
+    to{
+        fill: EE8829;
+    }
+}
+
