@@ -30,7 +30,7 @@ footer {
     text-orientation: sideways;
 }
 
-/* Index */
+/* Header */
 
 @media (max-width: 575px) {
     #logo-second {
@@ -43,6 +43,69 @@ footer {
         display: none;
     }
 }
+
+/* index */
+
+#imgwork {
+    /* position: absolute;
+    height: 30%;
+    margin-top: -200px; */
+   
+}
+
+#coreindex .button {
+        padding-left: 15px;
+}
+
+@media (min-width: 996px) {
+    #coreindex #button {
+        margin-top: 20rem;
+        margin-left: 8rem;
+    }
+}
+
+@media (min-width: 996px) {
+    #coreindex .content {
+        margin-top: -200px;
+    }
+}
+
+/* index work card */
+
+#campuscarindex {
+    background-color: #f7fbfe;
+}
+    
+    #campuscarindex:hover {
+        background-color: #f2f9fe;
+    }
+
+#benoitfreslonindex {
+    background-color: #fcf4ee;
+}
+    
+    #benoitfreslonindex:hover {
+        background-color: #faeee6;
+    }
+
+/* index blog card */
+
+#hitmarkersindex {
+    background-color: #fefbe6;
+}
+    
+    #hitmarkersindex:hover {
+        background-color: #fefad9;
+    }
+
+#thelongdarkindex {
+    background-color: #feecdf;
+}
+    
+    #thelongdarkindex:hover {
+        background-color: #fde4d0;
+    }
+
 
 
 /* Blog article */
@@ -199,7 +262,36 @@ footer {
     border: 2px solid black !important;
 }
 
+/* Réalisation Campus Car */
+
+@media (min-width: 992px) {
+    .campuscarverti img {
+    /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    }
+    .campuscarverti:hover img {
+    /* L'image est grossie de 25% */
+    -webkit-transform:scale(1.25); /* Safari et Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* Internet Explorer 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+    }
+}
+
 /* Réalisations color */
+
+#campuscar {
+    background-color: #e1f1fc40;
+}
+    
+    #campuscar:hover {
+        background-color: #e1f1fc70;
+    }
 
 #benoitfreslon {
     background-color: #e4a47820;
